@@ -39,7 +39,7 @@ export const Route = createRootRoute({
   component: () => (
     <>
       <header className="w-full border-b border-b-gray-900">
-        <NavBar routes={routes} className="mx-auto p-2  " />
+        <NavBar routes={routes} className="mx-auto p-2" />
       </header>
       <Outlet />
       <TanStackRouterDevtools />
